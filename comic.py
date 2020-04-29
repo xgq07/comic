@@ -17,7 +17,8 @@ headers = {'Accept': 'text/html, application/xhtml+xml, image/jxr, */*',
                'Accept - Encoding':'gzip, deflate',
                'Accept-Language':'zh-Hans-CN, zh-Hans; q=0.5',
                'Connection':'Keep-Alive',
-               'Host':'zhannei.baidu.com',
+               "Cache-Control":"max-age=0",
+               "Pramgma":"public",
                'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063'}
 
 
@@ -35,9 +36,10 @@ def saveImage(index, url, path):
         #     b = io.BytesIO(f.read())
         #     im = Image.open(b)
         #     im.save(f'{path}\{index}.jpg')
-        requests.packages.urllib3.disable_warnings()
+        # requests.packages.urllib3.disable_warnings()
         url = "https://i1.manhuadb.com/ccbaike/447/4937/10_qjzralyn.jpg"
-        response = requests.get(url,headers=headers, verify=False, timeout=8)
+        context = ssl._create_unverified_context()
+        response = requests.get(url=url,headers=headers, verify=False, timeout=8)
         # with open(f'{path}\{index}.jpg', 'wb') as file:
         #     file.write(response.content)
         print(response.text)
