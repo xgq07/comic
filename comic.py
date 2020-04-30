@@ -12,7 +12,7 @@ import ssl
 # ssl._create_default_https_context = ssl._create_unverified_context
 dic_l = {} # 所有要下载的url与分卷名
 host = "https://www.manhuadb.com/"
-save_path = "" # 保存的根目录
+save_path = "Comics" # 保存的根目录
 headers = {'Accept': 'text/html, application/xhtml+xml, image/jxr, */*',
                'Accept - Encoding':'gzip, deflate',
                'Accept-Language':'zh-Hans-CN, zh-Hans; q=0.5',
@@ -23,76 +23,97 @@ headers = {'Accept': 'text/html, application/xhtml+xml, image/jxr, */*',
 
 
 def saveImage(index, url, path):
-    try:
-        # response = requests.get(url,headers=headers, timeout=8)
-        # image = Image.open(BytesIO(response.content))
-        # image_name = f'{path}\{index}.jpg'
-        # print(image_name)
-        # image.save(image_name)
-        # print(f"save:{image_name}")
-        
-        # req = urllib.request.Request(url, headers = headers)
-        # with urllib.request.urlopen(req) as f:
-        #     b = io.BytesIO(f.read())
-        #     im = Image.open(b)
-        #     im.save(f'{path}\{index}.jpg')
-        # requests.packages.urllib3.disable_warnings()
-        url = "https://i1.manhuadb.com/ccbaike/447/4937/10_qjzralyn.jpg"
-        context = ssl._create_unverified_context()
-        response = requests.get(url=url,headers=headers, verify=False, timeout=8)
-        # with open(f'{path}\{index}.jpg', 'wb') as file:
-        #     file.write(response.content)
-        print(response.text)
-        exit()
-    # except ReadTimeoutError:
-    #     down_image(index, url, path)
-    except Exception as ex:
-        traceback.print_exc()
-        exit()
-        # saveImage(index,url,path)
+    i = 0
+    while i < 3: 
+        try:
+            response = requests.get(url,headers=headers, timeout=8)
+            image = Image.open(BytesIO(response.content))
+            image_name = f'{path}\{index}.jpg'
+            image.save(image_name)
+            print(f"save:{image_name}")
+            break
+            # req = urllib.request.Request(url, headers = headers)
+            # with urllib.request.urlopen(req) as f:
+            #     b = io.BytesIO(f.read())
+            #     im = Image.open(b)
+            #     im.save(f'{path}\{index}.jpg')
+            # requests.packages.urllib3.disable_warnings()
+
+            # url = "https://i1.manhuadb.com/ccbaike/447/4937/10_qjzralyn.jpg"
+            # context = ssl._create_unverified_context()
+            # response = requests.get(url=url, headers=headers, timeout=8)
+            # with open(f'{path}\{index}.jpg', 'wb') as file:
+            #     file.write(response.content)
+            # print(response.text
+        # except ReadTimeoutError:
+        #     down_image(index, url, path)
+        except Exception as ex:
+            i += 1
+            print(ex)
+            saveImage(index,url,path)
 
 # 下载分卷中的所有页
-def downPage(title, url):   
-    total_page = getTotalPage( f"{url}_p1.html")
+def downPage(title, url):
+    doc = getResponse(f"{url}_p1.html")
+    total_page = getTotalPage(doc)
     p = f'.\{save_path}\{title}'
     createStorePath(p)
-    for page in range(1, int(total_page) + 1):
+    begin_page = getDownPageCount(p)
+    for page in range(begin_page + 1, int(total_page) + 1):
         print(f"{url}_p{page}.html")
         link = getImagelink(f"{url}_p{page}.html")
         print(link)
-        saveImage(page,link,p)
+        saveImage(page, link, p)
 
+# 取得已下载的页面数量
+def getDownPageCount(path):
+    files = os.listdir(path)
+    return len(files)
 
+# 取得要图片src
 def getImagelink(url):
-    resp = requests.get(url)
-    doc = pq(resp.text)  # 解析html字符串
-    return doc.find(".img-fluid").attr('src')
+    return getResponse(url).find(".img-fluid").attr('src')
 
-def getTotalPage(info_url):
-    print(info_url)
-    resp = requests.get(info_url)
-    doc = pq(resp.text)
+# 取得页数
+def getTotalPage(doc):
     breadcrumb = doc.find(".breadcrumb-item.active").text()
     temp = breadcrumb[breadcrumb.find('共'):]
     total_page = list(filter(str.isdigit,  temp))
     total_page = "".join(total_page)
-    # title = doc.find(".breadcrumb-item.active a").text()
     return  total_page
 
 
 # 生成需下载的页面
-def downloadTask (url):
-    resp = requests.get(url)
-    html = resp.text
-    doc = pq(html)  # 解析html字符串
+def downloadTask(url):
+    doc = getResponse(url)
     title = doc.find(".comic-title").text()
     global save_path
-    save_path = f".\{title}"
+    save_path = save_path + f".\{title}"
     createStorePath(save_path)
     books = doc.find(".links-of-books.num_div a").items()
     for b in books:
         sub_title = b.attr('title')
+        if isDownloaded(doc, f"{save_path}\{sub_title}"):
+            continue
         dic_l[sub_title] = host + b.attr('href')
+
+# 检查是否已经完整下载过此分卷
+def isDownloaded(doc, path):
+    if not os.path.exists(path):
+        return False
+
+    total_page = getTotalPage(doc)
+    downloaded_total_page = getDownPageCount(path)
+    if total_page != downloaded_total_page:
+        return False
+    else:
+        return True
+
+def getResponse(url):
+    resp = requests.get(url=url, headers=headers, timeout=5)
+    html = resp.text
+    doc = pq(html)  # 解析html字符串
+    return doc
 
 def createStorePath(image_save_path):
     if not os.path.exists(image_save_path):
@@ -103,7 +124,7 @@ def main(url):
     i = 0
     for title, url in dic_l.items():
         i+=1
-        if i > 1:
+        if i > 3:
             return
         downPage(title, url[0:-5])
 
