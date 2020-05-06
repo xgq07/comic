@@ -68,7 +68,7 @@ def downPage(title, url):
     # # with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
     # #     executor.map(downForThread, args)
 
-    with concurrent.futures.ProcessPoolExecutor(max_workers= 2) as executor:
+    with concurrent.futures.ProcessPoolExecutor() as executor:
         executor.map(downForThread, down_page_args)
 
 
@@ -89,7 +89,7 @@ def getDownPageCount(path):
 
 # take the second element for sort
 def take_second(elem):
-    print(elem[1])
+    # print(elem[1])
     return int(elem[1])
 
 
