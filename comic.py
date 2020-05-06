@@ -7,6 +7,8 @@ import urllib
 from PIL import Image
 from io import BytesIO
 from pyquery import PyQuery as pq
+import concurrent.futures
+import threading
 import ssl
 
 # ssl._create_default_https_context = ssl._create_unverified_context
@@ -50,25 +52,65 @@ def saveImage(index, url, path):
         except Exception as ex:
             i += 1
             print(ex)
-            saveImage(index,url,path)
+            saveImage(index, url, path)
 
 # 下载分卷中的所有页
 def downPage(title, url):
     doc = getResponse(f"{url}_p1.html")
-    total_page = getTotalPage(doc)
+    total_page = int(getTotalPage(doc))
     p = f'.\{save_path}\{title}'
     createStorePath(p)
-    begin_page = getDownPageCount(p)
-    for page in range(begin_page + 1, int(total_page) + 1):
-        print(f"{url}_p{page}.html")
-        link = getImagelink(f"{url}_p{page}.html")
-        print(link)
-        saveImage(page, link, p)
+    down_page_args = getDownPageTask(p, total_page, url)
+    print("need to down: " + str(len(down_page_args)))
+    if len(down_page_args) == 0:
+        return
+    print(down_page_args[0])
+    # # with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+    # #     executor.map(downForThread, args)
+
+    with concurrent.futures.ProcessPoolExecutor(max_workers= 2) as executor:
+        executor.map(downForThread, down_page_args)
+
+
+def downForThread(args):
+    url, page, p = args[0], args[1], args[2]
+    print(f"{url}_p{page}.html")
+    link = getImagelink(f"{url}_p{page}.html")
+    print(link)
+    saveImage(page, link, p)
+
+
 
 # 取得已下载的页面数量
 def getDownPageCount(path):
     files = os.listdir(path)
     return len(files)
+
+
+# take the second element for sort
+def take_second(elem):
+    print(elem[1])
+    return int(elem[1])
+
+
+# 取得需下载的页面与图片url
+def getDownPageTask(path, total_page, url):
+    args = []
+    files = os.listdir(path)
+
+    p_all = set([str(i)+'.jpg' for i in range(1, total_page + 1)])
+    p_files = set(files) 
+    p_neet_down = p_all - p_files
+ 
+    for page in p_neet_down:
+        arg = (url, page[:page.find(".")], path)
+        args.append(arg)      
+
+    # sort list with key
+    args_sort = sorted(args, key=take_second)
+
+    return args_sort
+
 
 # 取得要图片src
 def getImagelink(url):
@@ -83,7 +125,7 @@ def getTotalPage(doc):
     return  total_page
 
 
-# 生成需下载的页面
+# 生成需下载的页面到dic_l中
 def downloadTask(url):
     doc = getResponse(url)
     title = doc.find(".comic-title").text()
@@ -121,14 +163,10 @@ def createStorePath(image_save_path):
 
 def main(url):
     downloadTask(url)
-    i = 0
     for title, url in dic_l.items():
-        i+=1
-        if i > 3:
-            return
         downPage(title, url[0:-5])
 
 
 
 if __name__ == "__main__":
-    main("https://www.manhuadb.com/manhua/449")
+    main("https://www.manhuadb.com/manhua/5856")
