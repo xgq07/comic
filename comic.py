@@ -3,13 +3,11 @@ import base64
 import traceback
 import os
 import io
-import urllib
 from PIL import Image
 from io import BytesIO
 from pyquery import PyQuery as pq
 import concurrent.futures
 import threading
-import ssl
 
 # ssl._create_default_https_context = ssl._create_unverified_context
 dic_l = {} # 所有要下载的url与分卷名
@@ -65,11 +63,11 @@ def downPage(title, url):
     if len(down_page_args) == 0:
         return
     print(down_page_args[0])
-    # # with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
-    # #     executor.map(downForThread, args)
-
-    with concurrent.futures.ProcessPoolExecutor() as executor:
+    with concurrent.futures.ThreadPoolExecutor() as executor:
         executor.map(downForThread, down_page_args)
+
+    # with concurrent.futures.ProcessPoolExecutor(max_workers=5) as executor:
+    #     executor.map(downForThread, down_page_args)
 
 
 def downForThread(args):
@@ -152,7 +150,7 @@ def isDownloaded(doc, path):
         return True
 
 def getResponse(url):
-    resp = requests.get(url=url, headers=headers, timeout=5)
+    resp = requests.get(url=url, headers=headers, timeout=8)
     html = resp.text
     doc = pq(html)  # 解析html字符串
     return doc
@@ -169,4 +167,4 @@ def main(url):
 
 
 if __name__ == "__main__":
-    main("https://www.manhuadb.com/manhua/5856")
+    main("https://www.manhuadb.com/manhua/1224")
