@@ -3,6 +3,7 @@ import base64
 import traceback
 import os
 import io
+import shutil
 from PIL import Image
 from io import BytesIO
 from pyquery import PyQuery as pq
@@ -22,11 +23,11 @@ headers = {'Accept': 'text/html, application/xhtml+xml, image/jxr, */*',
                'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063'}
 
 
-def saveImage(index, url, path):
+def saveImage(index, url, path, book_title):
     i = 0
     while i < 3: 
         try:
-            response = requests.get(url,headers=headers, timeout=8)
+            response = requests.get(url, headers=headers, timeout=8)
             image = Image.open(BytesIO(response.content))
             image_name = f'{path}\{index}.jpg'
             image.save(image_name)
@@ -47,10 +48,19 @@ def saveImage(index, url, path):
             # print(response.text
         # except ReadTimeoutError:
         #     down_image(index, url, path)
+        except IOError as e:
+            i += 1
+            print("image ioerror : ", image_name, book_title)
+            saveImage(index, url, path, book_title)
+            # if i >= 3:
+            #     image_name = f'{path}\{index}.jpg'
+            #     writeToFile(f"./NoPic/{book_title}.txt", f"{index}.jpg\n")
+            #     shutil.copy("./Nopic/nopic.jpg", image_name)
+            # break
         except Exception as ex:
             i += 1
             print(ex)
-            saveImage(index, url, path)
+            saveImage(index, url, path, book_title)
 
 # 下载分卷中的所有页
 def downPage(title, url):
@@ -58,12 +68,12 @@ def downPage(title, url):
     total_page = int(getTotalPage(doc))
     p = f'.\{save_path}\{title}'
     createStorePath(p)
-    down_page_args = getDownPageTask(p, total_page, url)
+    down_page_args = getDownPageTask(p, total_page, url, title)
     print("need to down: " + str(len(down_page_args)))
     if len(down_page_args) == 0:
         return
     print(down_page_args[0])
-    with concurrent.futures.ThreadPoolExecutor() as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
         executor.map(downForThread, down_page_args)
 
     # with concurrent.futures.ProcessPoolExecutor(max_workers=5) as executor:
@@ -71,11 +81,11 @@ def downPage(title, url):
 
 
 def downForThread(args):
-    url, page, p = args[0], args[1], args[2]
+    url, page, p , book_title = args[0], args[1], args[2], args[3]
     print(f"{url}_p{page}.html")
     link = getImagelink(f"{url}_p{page}.html")
     print(link)
-    saveImage(page, link, p)
+    saveImage(page, link, p, book_title)
 
 
 
@@ -92,7 +102,7 @@ def take_second(elem):
 
 
 # 取得需下载的页面与图片url
-def getDownPageTask(path, total_page, url):
+def getDownPageTask(path, total_page, url, book_title):
     args = []
     files = os.listdir(path)
 
@@ -101,7 +111,7 @@ def getDownPageTask(path, total_page, url):
     p_neet_down = p_all - p_files
  
     for page in p_neet_down:
-        arg = (url, page[:page.find(".")], path)
+        arg = (url, page[:page.find(".")], path, book_title)
         args.append(arg)      
 
     # sort list with key
@@ -133,6 +143,9 @@ def downloadTask(url):
     books = doc.find(".links-of-books.num_div a").items()
     for b in books:
         sub_title = b.attr('title')
+        if sub_title == "[爱生事家庭][浜冈贤次][玉皇朝][C.C]Vol_10":
+            continue
+
         if isDownloaded(doc, f"{save_path}\{sub_title}"):
             continue
         dic_l[sub_title] = host + b.attr('href')
@@ -159,6 +172,10 @@ def createStorePath(image_save_path):
     if not os.path.exists(image_save_path):
         os.makedirs(image_save_path)
 
+def writeToFile(path, content):
+    with open(path, "a") as f:
+        f.write(content)
+
 def main(url):
     downloadTask(url)
     for title, url in dic_l.items():
@@ -167,4 +184,9 @@ def main(url):
 
 
 if __name__ == "__main__":
-    main("https://www.manhuadb.com/manhua/1224")
+    main("https://www.manhuadb.com/manhua/127")
+
+    # shutil.copy("./Nopic/nopic.jpg",
+    #             "./Comics/抓狂一族（爱生事家庭\浦安铁筋家族）/[爱生事家庭][浜冈贤次][玉皇朝][C.C]Vol_10/5.jpg")
+    # writeToFile("./NoPic/a.txt", "a\n")
+    # writeToFile("./NoPic/a.txt", "b\n")
