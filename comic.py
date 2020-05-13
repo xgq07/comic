@@ -73,7 +73,7 @@ def downPage(title, url):
     if len(down_page_args) == 0:
         return
     print(down_page_args[0])
-    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         executor.map(downForThread, down_page_args)
 
     # with concurrent.futures.ProcessPoolExecutor(max_workers=5) as executor:
@@ -184,9 +184,4 @@ def main(url):
 
 
 if __name__ == "__main__":
-    main("https://www.manhuadb.com/manhua/127")
-
-    # shutil.copy("./Nopic/nopic.jpg",
-    #             "./Comics/抓狂一族（爱生事家庭\浦安铁筋家族）/[爱生事家庭][浜冈贤次][玉皇朝][C.C]Vol_10/5.jpg")
-    # writeToFile("./NoPic/a.txt", "a\n")
-    # writeToFile("./NoPic/a.txt", "b\n")
+    main("https://www.manhuadb.com/manhua/8363")
