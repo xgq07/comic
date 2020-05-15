@@ -73,7 +73,7 @@ def downPage(title, url):
     if len(down_page_args) == 0:
         return
     print(down_page_args[0])
-    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=9) as executor:
         executor.map(downForThread, down_page_args)
 
     # with concurrent.futures.ProcessPoolExecutor(max_workers=5) as executor:
@@ -184,4 +184,4 @@ def main(url):
 
 
 if __name__ == "__main__":
-    main("https://www.manhuadb.com/manhua/8363")
+    main("https://www.manhuadb.com/manhua/17662")
