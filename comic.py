@@ -183,5 +183,5 @@ def main(url):
 
 
 if __name__ == "__main__":
-    main("https://www.manhuadb.com/manhua/7831")
+    main("https://www.manhuadb.com/manhua/715")
 
