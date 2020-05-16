@@ -30,7 +30,8 @@ def saveImage(index, url, path, book_title):
         try:
             response = session.get(url, headers=headers, timeout=8)
             image = Image.open(BytesIO(response.content))
-            image_name = f'{path}\{index}.jpg'
+            # image_name = f'{path}\{index}.jpg'
+            image_name = os.path.join(path,index+ ".jpg")
             image.save(image_name)
             print(f"save:{image_name}")
             break
@@ -66,15 +67,15 @@ def saveImage(index, url, path, book_title):
 # 下载分卷中的所有页
 def downPage(title, url):
     doc = getResponse(f"{url}_p1.html")
-    total_page = int(getTotalPage(doc))
-    p = f'.\{save_path}\{title}'
+    total_page = getTotalPage(doc)
+    p = os.path.join(save_path,title)
     createStorePath(p)
     down_page_args = getDownPageTask(p, total_page, url, title)
     print("need to down: " + str(len(down_page_args)))
     if len(down_page_args) == 0:
         return
     print(down_page_args[0])
-    with concurrent.futures.ThreadPoolExecutor(max_workers=9) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
         executor.map(downForThread, down_page_args)
 
     # with concurrent.futures.ProcessPoolExecutor(max_workers=5) as executor:
@@ -106,8 +107,8 @@ def take_second(elem):
 def getDownPageTask(path, total_page, url, book_title):
     args = []
     files = os.listdir(path)
-
-    p_all = set([str(i)+'.jpg' for i in range(1, total_page + 1)])
+    p_all = set([str(i)+'.jpg' for i in range(1, int(total_page) + 1)])
+    print('fdf')
     p_files = set(files) 
     p_neet_down = p_all - p_files
  
@@ -139,15 +140,12 @@ def downloadTask(url):
     doc = getResponse(url)
     title = doc.find(".comic-title").text()
     global save_path
-    save_path = save_path + f".\{title}"
+    save_path = os.path.join(save_path ,title)
     createStorePath(save_path)
     books = doc.find(".links-of-books.num_div a").items()
     for b in books:
         sub_title = b.attr('title')
-        if sub_title == "[爱生事家庭][浜冈贤次][玉皇朝][C.C]Vol_10":
-            continue
-
-        if isDownloaded(doc, f"{save_path}\{sub_title}"):
+        if isDownloaded(doc, os.path.join(save_path,sub_title)):
             continue
         dic_l[sub_title] = host + b.attr('href')
 
@@ -185,4 +183,5 @@ def main(url):
 
 
 if __name__ == "__main__":
-    main("https://www.manhuadb.com/manhua/12850")
+    main("https://www.manhuadb.com/manhua/7831")
+
