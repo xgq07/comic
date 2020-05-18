@@ -22,13 +22,13 @@ headers = {'Accept': 'text/html, application/xhtml+xml, image/jxr, */*',
                "Pramgma":"public",
                'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063'}
 
-session = requests.Session()
+# session = requests.Session()
 
 def saveImage(index, url, path, book_title):
     i = 0
     while i < 3: 
         try:
-            response = session.get(url, headers=headers, timeout=8)
+            response = requests.get(url, headers=headers, timeout=8)
             image = Image.open(BytesIO(response.content))
             # image_name = f'{path}\{index}.jpg'
             image_name = os.path.join(path,index+ ".jpg")
@@ -75,7 +75,7 @@ def downPage(title, url):
     if len(down_page_args) == 0:
         return
     print(down_page_args[0])
-    with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
+    with concurrent.futures.ThreadPoolExecutor() as executor:
         executor.map(downForThread, down_page_args)
 
     # with concurrent.futures.ProcessPoolExecutor(max_workers=5) as executor:
@@ -108,7 +108,6 @@ def getDownPageTask(path, total_page, url, book_title):
     args = []
     files = os.listdir(path)
     p_all = set([str(i)+'.jpg' for i in range(1, int(total_page) + 1)])
-    print('fdf')
     p_files = set(files) 
     p_neet_down = p_all - p_files
  
@@ -162,7 +161,7 @@ def isDownloaded(doc, path):
         return True
 
 def getResponse(url):
-    resp = session.get(url=url, headers=headers, timeout=8)
+    resp = requests.get(url=url, headers=headers, timeout=8)
     html = resp.text
     doc = pq(html)  # 解析html字符串
     return doc
@@ -183,5 +182,4 @@ def main(url):
 
 
 if __name__ == "__main__":
-    main("https://www.manhuadb.com/manhua/715")
-
+    main("https://www.manhuadb.com/manhua/5636")
