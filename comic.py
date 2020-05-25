@@ -9,19 +9,20 @@ from io import BytesIO
 from pyquery import PyQuery as pq
 import concurrent.futures
 import threading
+from fake_useragent import UserAgent
 
 # ssl._create_default_https_context = ssl._create_unverified_context
 dic_l = {} # 所有要下载的url与分卷名
 host = "https://www.manhuadb.com/"
 save_path = "Comics" # 保存的根目录
+ua = UserAgent()
 headers = {'Accept': 'text/html, application/xhtml+xml, image/jxr, */*',
                'Accept - Encoding':'gzip, deflate',
                'Accept-Language':'zh-Hans-CN, zh-Hans; q=0.5',
                'Connection':'Keep-Alive',
                "Cache-Control":"max-age=0",
                "Pramgma":"public",
-               'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063'}
-
+               'User-Agent': ua.random}
 # session = requests.Session()
 
 def saveImage(index, url, path, book_title):
@@ -182,4 +183,6 @@ def main(url):
 
 
 if __name__ == "__main__":
-    main("https://www.manhuadb.com/manhua/5636")
+    main("https://www.manhuadb.com/manhua/1956")
+    # r = requests.get("https://www.baidu.com")
+    # print(r)
