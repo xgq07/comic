@@ -29,7 +29,7 @@ def saveImage(index, url, path, book_title):
     i = 0
     while i < 3: 
         try:
-            response = requests.get(url, headers=headers, timeout=8)
+            response = requests.get(url, headers=headers, timeout=10)
             image = Image.open(BytesIO(response.content))
             # image_name = f'{path}\{index}.jpg'
             image_name = os.path.join(path,index+ ".jpg")
@@ -140,7 +140,8 @@ def downloadTask(url):
     doc = getResponse(url)
     title = doc.find(".comic-title").text()
     global save_path
-    save_path = os.path.join(save_path ,title)
+    save_path = "Comics"  # 保存的根目录
+    save_path = os.path.join(save_path, title)
     createStorePath(save_path)
     books = doc.find(".links-of-books.num_div a").items()
     for b in books:
@@ -162,7 +163,7 @@ def isDownloaded(doc, path):
         return True
 
 def getResponse(url):
-    resp = requests.get(url=url, headers=headers, timeout=8)
+    resp = requests.get(url=url, headers=headers, timeout=10)
     html = resp.text
     doc = pq(html)  # 解析html字符串
     return doc
@@ -176,6 +177,7 @@ def writeToFile(path, content):
         f.write(content)
 
 def main(url):
+    dic_l.clear()
     downloadTask(url)
     for title, url in dic_l.items():
         downPage(title, url[0:-5])
@@ -183,6 +185,7 @@ def main(url):
 
 
 if __name__ == "__main__":
-    main("https://www.manhuadb.com/manhua/1956")
+    main("https://www.manhuadb.com/manhua/3996")
+    main("https://www.manhuadb.com/manhua/3940")
     # r = requests.get("https://www.baidu.com")
     # print(r)
