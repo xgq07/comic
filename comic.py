@@ -185,7 +185,10 @@ def main(url):
 
 
 if __name__ == "__main__":
-    main("https://www.manhuadb.com/manhua/3996")
-    main("https://www.manhuadb.com/manhua/3940")
+    main("https://www.manhuadb.com/manhua/4405")
+    main("https://www.manhuadb.com/manhua/4360")
+    
+    
+    
     # r = requests.get("https://www.baidu.com")
     # print(r)
