@@ -26,8 +26,8 @@ headers = {'Accept': 'text/html, application/xhtml+xml, image/jxr, */*',
 # session = requests.Session()
 
 def saveImage(index, url, path, book_title):
-    i = 0
-    while i < 3: 
+    icondition = 1
+    while icondition < 3:
         try:
             response = requests.get(url, headers=headers, timeout=10)
             image = Image.open(BytesIO(response.content))
@@ -35,6 +35,7 @@ def saveImage(index, url, path, book_title):
             image_name = os.path.join(path,index+ ".jpg")
             image.save(image_name)
             print(f"save:{image_name}")
+            icondition = 1
             break
             # req = urllib.request.Request(url, headers = headers)
             # with urllib.request.urlopen(req) as f:
@@ -52,18 +53,18 @@ def saveImage(index, url, path, book_title):
         # except ReadTimeoutError:
         #     down_image(index, url, path)
         except IOError as e:
-            i += 1
+            icondition += 1
             print("image ioerror : ", image_name, book_title)
-            saveImage(index, url, path, book_title)
+            # saveImage(index, url, path, book_title)
             # if i >= 3:
             #     image_name = f'{path}\{index}.jpg'
             #     writeToFile(f"./NoPic/{book_title}.txt", f"{index}.jpg\n")
             #     shutil.copy("./Nopic/nopic.jpg", image_name)
             # break
         except Exception as ex:
-            i += 1
+            icondition += 1
             print(ex)
-            saveImage(index, url, path, book_title)
+            # saveImage(index, url, path, book_title)
 
 # 下载分卷中的所有页
 def downPage(title, url):
@@ -76,7 +77,7 @@ def downPage(title, url):
     if len(down_page_args) == 0:
         return
     print(down_page_args[0])
-    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
         executor.map(downForThread, down_page_args)
 
     # with concurrent.futures.ProcessPoolExecutor(max_workers=5) as executor:
@@ -185,12 +186,10 @@ def main(url):
 
 
 if __name__ == "__main__":
-    # main("https://www.manhuadb.com/manhua/4405")
-    # main("https://www.manhuadb.com/manhua/6566")
-    # main("https://www.manhuadb.com/manhua/7217")
-    # main("https://www.manhuadb.com/manhua/7122")
-    # main("https://www.manhuadb.com/manhua/7065")
-    
+    # main("https://www.manhuadb.com/manhua/16840")
+    # main("https://www.manhuadb.com/manhua/13137")
+    main("https://www.manhuadb.com/manhua/12418")
+    main("https://www.manhuadb.com/manhua/12378")
     
     
     

@@ -45,7 +45,7 @@ https://www.manhuadb.com/manhua/153                         天使心2
 https://www.manhuadb.com/manhua/144                         死亡笔记
 https://www.manhuadb.com/manhua/6473                        贰灵转校生
 https://www.manhuadb.com/manhua/501                         结界师
-https://www.manhuadb.com/manhua/386                         城市风云儿
+https://www.manhuadb.com/manhua/386                         城市风云儿```
 https://www.manhuadb.com/manhua/12670                       假面幻舞
 https://www.manhuadb.com/manhua/14378                       疾风怪盗
 https://www.manhuadb.com/manhua/14383                       奇兵大进击
@@ -103,7 +103,7 @@ https://www.manhuadb.com/manhua/4497                        四稻家的那些�
 https://www.manhuadb.com/manhua/4470                        闪灵酷企鹅
 https://www.manhuadb.com/manhua/4462                        三国笑传之玄德大进击
 https://www.manhuadb.com/manhua/4409                        日常
-https://www.manhuadb.com/manhua/4405                        人鱼又上钩```
+https://www.manhuadb.com/manhua/4405                        人鱼又上钩
 https://www.manhuadb.com/manhua/4360                        SKET DANCE学园救援团
 https://www.manhuadb.com/manhua/4841                        天才家庭
 https://www.manhuadb.com/manhua/4691                        时空眼
@@ -143,45 +143,87 @@ https://www.manhuadb.com/manhua/6755                        OH!追裤男孩（�
 https://www.manhuadb.com/manhua/6617                        其中1个是妹妹!（三人行必有我妹）
 https://www.manhuadb.com/manhua/6571                        我们这一家
 https://www.manhuadb.com/manhua/6570                        团魂
-https://www.manhuadb.com/manhua/6566                        守护天使 HAPPY WORLD!```
-https://www.manhuadb.com/manhua/7217                        钢弹宅女（高达宅女）```
-https://www.manhuadb.com/manhua/7122                        机械女神（Saber Marionette J）```
-https://www.manhuadb.com/manhua/7065                        超人·怪兽大乐园（超人怪兽大乐园）```
-https://www.manhuadb.com/manhua/7322                        女仆咖啡厅（即使如此小镇依然转动）```
-https://www.manhuadb.com/manhua/7861                        横滨购物纪行```
-https://www.manhuadb.com/manhua/7767                        社长难缠```
-https://www.manhuadb.com/manhua/7517                        魔法提琴手```
-https://www.manhuadb.com/manhua/8064                        靓妹人形```
-https://www.manhuadb.com/manhua/8048                        罗马浴场（古罗马公共澡堂）```
-https://www.manhuadb.com/manhua/8004                        老爸的第二春```
-https://www.manhuadb.com/manhua/7960                        减肥达人```
-https://www.manhuadb.com/manhua/7916                        爆笑筋肉人```
-https://www.manhuadb.com/manhua/7865                        爆怪物太郎（怪物王子）```
-https://www.manhuadb.com/manhua/8403                        猿飞小忍者```
-https://www.manhuadb.com/manhua/8398                        猿银牙（虎纹猎犬物语）```
-https://www.manhuadb.com/manhua/8358                        美少女学园```
-https://www.manhuadb.com/manhua/8355                        茂利飞车党（GO!GO!茂利飞车党）```
-https://www.manhuadb.com/manhua/8315                        必杀桌球人```
-https://www.manhuadb.com/manhua/8311                        霸气男儿DADA```
-https://www.manhuadb.com/manhua/8249                        股市风云```
-https://www.manhuadb.com/manhua/8117                        小辣妹```
-https://www.manhuadb.com/manhua/8108                        我为猫狂（猫怪麦克）```
-https://www.manhuadb.com/manhua/8695                        耍帅爷爷G```
-https://www.manhuadb.com/manhua/9112                        天外福星```
-https://www.manhuadb.com/manhua/18033                       以小搏大格斗技```
+https://www.manhuadb.com/manhua/6566                        守护天使 HAPPY WORLD!
+https://www.manhuadb.com/manhua/7217                        钢弹宅女（高达宅女）
+https://www.manhuadb.com/manhua/7122                        机械女神（Saber Marionette J）
+https://www.manhuadb.com/manhua/7065                        超人·怪兽大乐园（超人怪兽大乐园）
+https://www.manhuadb.com/manhua/7322                        女仆咖啡厅（即使如此小镇依然转动）
+https://www.manhuadb.com/manhua/7861                        横滨购物纪行
+https://www.manhuadb.com/manhua/7767                        社长难缠
+https://www.manhuadb.com/manhua/7517                        魔法提琴手
+https://www.manhuadb.com/manhua/8064                        靓妹人形
+https://www.manhuadb.com/manhua/8048                        罗马浴场（古罗马公共澡堂）
+https://www.manhuadb.com/manhua/8004                        老爸的第二春
+https://www.manhuadb.com/manhua/7960                        减肥达人
+https://www.manhuadb.com/manhua/7916                        爆笑筋肉人
+https://www.manhuadb.com/manhua/7865                        爆怪物太郎（怪物王子）
+https://www.manhuadb.com/manhua/8403                        猿飞小忍者
+https://www.manhuadb.com/manhua/8398                        猿银牙（虎纹猎犬物语）
+https://www.manhuadb.com/manhua/8358                        美少女学园
+https://www.manhuadb.com/manhua/8355                        茂利飞车党（GO!GO!茂利飞车党）
+https://www.manhuadb.com/manhua/8315                        必杀桌球人
+https://www.manhuadb.com/manhua/8311                        霸气男儿DADA
+https://www.manhuadb.com/manhua/8249                        股市风云
+https://www.manhuadb.com/manhua/8117                        小辣妹
+https://www.manhuadb.com/manhua/8108                        我为猫狂（猫怪麦克）
+https://www.manhuadb.com/manhua/8695                        耍帅爷爷G
+https://www.manhuadb.com/manhua/9112                        天外福星
+https://www.manhuadb.com/manhua/18033                       以小搏大格斗技
 https://www.manhuadb.com/manhua/16840                       正义凛然-直江兼续```
-https://www.manhuadb.com/manhua/14387                       学院帝国```
-https://www.manhuadb.com/manhua/13341                       格斗少女朱玲```
-https://www.manhuadb.com/manhua/13341                       双面刃赌徒麒麟```
-https://www.manhuadb.com/manhua/12931                       源平传```
-https://www.manhuadb.com/manhua/12870                       Atomic双面兵器少女```
-https://www.manhuadb.com/manhua/12851                       痞子勇士```
-https://www.manhuadb.com/manhua/12811                       邪鬼播磨滩```
-https://www.manhuadb.com/manhua/12805                       乱童```
-https://www.manhuadb.com/manhua/12804                       龙之拳```
-https://www.manhuadb.com/manhua/12726                       香格里拉```
-https://www.manhuadb.com/manhua/12616                       Kicks跆拳道```
-https://www.manhuadb.com/manhua/12507                       天眼```
-https://www.manhuadb.com/manhua/12502                       R’chronicle```
+https://www.manhuadb.com/manhua/14387                       学院帝国
+https://www.manhuadb.com/manhua/13341                       格斗少女朱玲
+https://www.manhuadb.com/manhua/13137                       双面刃赌徒麒麟```
+https://www.manhuadb.com/manhua/12931                       源平传
+https://www.manhuadb.com/manhua/12870                       Atomic双面兵器少女
+https://www.manhuadb.com/manhua/12851                       痞子勇士
+https://www.manhuadb.com/manhua/12811                       邪鬼播磨滩
+https://www.manhuadb.com/manhua/12805                       乱童
+https://www.manhuadb.com/manhua/12804                       龙之拳
+https://www.manhuadb.com/manhua/12726                       香格里拉
+https://www.manhuadb.com/manhua/12616                       Kicks跆拳道
+https://www.manhuadb.com/manhua/12507                       天眼
+https://www.manhuadb.com/manhua/12502                       R’chronicle
 https://www.manhuadb.com/manhua/12418                       宇强!拳霸天```
 https://www.manhuadb.com/manhua/12378                       左拳天使```
+https://www.manhuadb.com/manhua/11490                       新撰组异闻列传```
+https://www.manhuadb.com/manhua/11917                       K.O.小拳王```
+https://www.manhuadb.com/manhua/12378                       左拳天使```
+https://www.manhuadb.com/manhua/12418                       宇强!拳霸天```
+https://www.manhuadb.com/manhua/12507                       天眼```
+https://www.manhuadb.com/manhua/12502                       R’chronicle```
+https://www.manhuadb.com/manhua/11338                       明陵帝```
+https://www.manhuadb.com/manhua/11247                       暴弹男传说```
+https://www.manhuadb.com/manhua/11187                       圣斗士星矢G```
+https://www.manhuadb.com/manhua/10752                       灵幻猎人```
+https://www.manhuadb.com/manhua/9372                        神剑风云（幕末风云传斩郎汰）```
+https://www.manhuadb.com/manhua/9370                        龙珠完全版公式手册```
+https://www.manhuadb.com/manhua/8606                        天草X（天草物语）```
+https://www.manhuadb.com/manhua/8359                        斗龙传（鬥龍傳）```
+https://www.manhuadb.com/manhua/8270                        捍卫圣域（HOLYLAND）```
+https://www.manhuadb.com/manhua/8147                        秘拳传```
+https://www.manhuadb.com/manhua/8058                        零王```
+https://www.manhuadb.com/manhua/7814                        湘南纯爱组（湘爱）```
+https://www.manhuadb.com/manhua/7769                        驭龙少年（DRAGON DRIVE）```
+https://www.manhuadb.com/manhua/7713                        风火英雄```
+https://www.manhuadb.com/manhua/7672                        神TO战国学生会（神TO战国生徒会）```
+https://www.manhuadb.com/manhua/7520                        脑内格斗（AKIBA SHOOT）```
+https://www.manhuadb.com/manhua/7417                        岩流小次郎之剑（岩流神剑客）```
+https://www.manhuadb.com/manhua/7372                        半座的一片天-HANZASKY```
+https://www.manhuadb.com/manhua/7214                        Y+M柳生忍法帖```
+https://www.manhuadb.com/manhua/7071                        斗神传```
+https://www.manhuadb.com/manhua/6820                        TAKAYA-闪武学园激斗传-``
+https://www.manhuadb.com/manhua/6207                        美少女格斗部（战斗！美少女格斗部）```
+https://www.manhuadb.com/manhua/6061                        武侠派女子高生```
+https://www.manhuadb.com/manhua/6059                        狩罪使（狩罪魔）```
+https://www.manhuadb.com/manhua/6008                        樱铁奇想```
+https://www.manhuadb.com/manhua/4415                        忍者猎人```
+https://www.manhuadb.com/manhua/4553                        少年剑圣```
+https://www.manhuadb.com/manhua/4744                        双面刃赌徒-麒麟```
+https://www.manhuadb.com/manhua/5011                        无敌柔道王```
+https://www.manhuadb.com/manhua/5243                        舞·HIME```
+https://www.manhuadb.com/manhua/5248                        武心```
+https://www.manhuadb.com/manhua/5443                        心灵杀手```
+https://www.manhuadb.com/manhua/5646                        野蛮天女```
+https://www.manhuadb.com/manhua/5696                        月明星稀~再见新选组~``
+https://www.manhuadb.com/manhua/4020                        女大太郎```
+https://www.manhuadb.com/manhua/3798                        麻辣功夫王```
