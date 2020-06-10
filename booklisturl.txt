@@ -183,47 +183,158 @@ https://www.manhuadb.com/manhua/12726                       香格里拉
 https://www.manhuadb.com/manhua/12616                       Kicks跆拳道
 https://www.manhuadb.com/manhua/12507                       天眼
 https://www.manhuadb.com/manhua/12502                       R’chronicle
-https://www.manhuadb.com/manhua/12418                       宇强!拳霸天```
-https://www.manhuadb.com/manhua/12378                       左拳天使```
-https://www.manhuadb.com/manhua/11490                       新撰组异闻列传```
-https://www.manhuadb.com/manhua/11917                       K.O.小拳王```
-https://www.manhuadb.com/manhua/12378                       左拳天使```
-https://www.manhuadb.com/manhua/12418                       宇强!拳霸天```
-https://www.manhuadb.com/manhua/12507                       天眼```
-https://www.manhuadb.com/manhua/12502                       R’chronicle```
-https://www.manhuadb.com/manhua/11338                       明陵帝```
-https://www.manhuadb.com/manhua/11247                       暴弹男传说```
-https://www.manhuadb.com/manhua/11187                       圣斗士星矢G```
-https://www.manhuadb.com/manhua/10752                       灵幻猎人```
-https://www.manhuadb.com/manhua/9372                        神剑风云（幕末风云传斩郎汰）```
-https://www.manhuadb.com/manhua/9370                        龙珠完全版公式手册```
-https://www.manhuadb.com/manhua/8606                        天草X（天草物语）```
-https://www.manhuadb.com/manhua/8359                        斗龙传（鬥龍傳）```
-https://www.manhuadb.com/manhua/8270                        捍卫圣域（HOLYLAND）```
-https://www.manhuadb.com/manhua/8147                        秘拳传```
-https://www.manhuadb.com/manhua/8058                        零王```
-https://www.manhuadb.com/manhua/7814                        湘南纯爱组（湘爱）```
-https://www.manhuadb.com/manhua/7769                        驭龙少年（DRAGON DRIVE）```
-https://www.manhuadb.com/manhua/7713                        风火英雄```
-https://www.manhuadb.com/manhua/7672                        神TO战国学生会（神TO战国生徒会）```
-https://www.manhuadb.com/manhua/7520                        脑内格斗（AKIBA SHOOT）```
-https://www.manhuadb.com/manhua/7417                        岩流小次郎之剑（岩流神剑客）```
-https://www.manhuadb.com/manhua/7372                        半座的一片天-HANZASKY```
-https://www.manhuadb.com/manhua/7214                        Y+M柳生忍法帖```
-https://www.manhuadb.com/manhua/7071                        斗神传```
-https://www.manhuadb.com/manhua/6820                        TAKAYA-闪武学园激斗传-``
-https://www.manhuadb.com/manhua/6207                        美少女格斗部（战斗！美少女格斗部）```
-https://www.manhuadb.com/manhua/6061                        武侠派女子高生```
-https://www.manhuadb.com/manhua/6059                        狩罪使（狩罪魔）```
-https://www.manhuadb.com/manhua/6008                        樱铁奇想```
-https://www.manhuadb.com/manhua/4415                        忍者猎人```
-https://www.manhuadb.com/manhua/4553                        少年剑圣```
-https://www.manhuadb.com/manhua/4744                        双面刃赌徒-麒麟```
-https://www.manhuadb.com/manhua/5011                        无敌柔道王```
-https://www.manhuadb.com/manhua/5243                        舞·HIME```
-https://www.manhuadb.com/manhua/5248                        武心```
-https://www.manhuadb.com/manhua/5443                        心灵杀手```
-https://www.manhuadb.com/manhua/5646                        野蛮天女```
-https://www.manhuadb.com/manhua/5696                        月明星稀~再见新选组~``
-https://www.manhuadb.com/manhua/4020                        女大太郎```
-https://www.manhuadb.com/manhua/3798                        麻辣功夫王```
+https://www.manhuadb.com/manhua/12418                       宇强!拳霸天
+https://www.manhuadb.com/manhua/12378                       左拳天使
+https://www.manhuadb.com/manhua/11490                       新撰组异闻列传
+https://www.manhuadb.com/manhua/11917                       K.O.小拳王
+https://www.manhuadb.com/manhua/12378                       左拳天使
+https://www.manhuadb.com/manhua/12418                       宇强!拳霸天
+https://www.manhuadb.com/manhua/12507                       天眼
+https://www.manhuadb.com/manhua/12502                       R’chronicle
+https://www.manhuadb.com/manhua/11338                       明陵帝
+https://www.manhuadb.com/manhua/11247                       暴弹男传说
+https://www.manhuadb.com/manhua/11187                       圣斗士星矢G
+https://www.manhuadb.com/manhua/10752                       灵幻猎人
+https://www.manhuadb.com/manhua/9372                        神剑风云（幕末风云传斩郎汰）
+https://www.manhuadb.com/manhua/9370                        龙珠完全版公式手册
+https://www.manhuadb.com/manhua/8606                        天草X（天草物语）
+https://www.manhuadb.com/manhua/8359                        斗龙传（鬥龍傳）
+https://www.manhuadb.com/manhua/8270                        捍卫圣域（HOLYLAND）
+https://www.manhuadb.com/manhua/8147                        秘拳传
+https://www.manhuadb.com/manhua/8058                        零王
+https://www.manhuadb.com/manhua/7814                        湘南纯爱组（湘爱）
+https://www.manhuadb.com/manhua/7769                        驭龙少年（DRAGON DRIVE）
+https://www.manhuadb.com/manhua/7713                        风火英雄
+https://www.manhuadb.com/manhua/7672                        神TO战国学生会（神TO战国生徒会）
+https://www.manhuadb.com/manhua/7520                        脑内格斗（AKIBA SHOOT）
+https://www.manhuadb.com/manhua/7417                        岩流小次郎之剑（岩流神剑客）
+https://www.manhuadb.com/manhua/7372                        半座的一片天-HANZASKY
+https://www.manhuadb.com/manhua/7214                        Y+M柳生忍法帖
+https://www.manhuadb.com/manhua/7071                        斗神传
+https://www.manhuadb.com/manhua/6820                        TAKAYA-闪武学园激斗传
+https://www.manhuadb.com/manhua/6207                        美少女格斗部（战斗！美少女格斗部）
+https://www.manhuadb.com/manhua/6061                        武侠派女子高生
+https://www.manhuadb.com/manhua/6059                        狩罪使（狩罪魔）
+https://www.manhuadb.com/manhua/6008                        樱铁奇想
+https://www.manhuadb.com/manhua/4415                        忍者猎人
+https://www.manhuadb.com/manhua/4553                        少年剑圣
+https://www.manhuadb.com/manhua/4744                        双面刃赌徒-麒麟
+https://www.manhuadb.com/manhua/5011                        无敌柔道王
+https://www.manhuadb.com/manhua/5243                        舞·HIME
+https://www.manhuadb.com/manhua/5248                        武心
+https://www.manhuadb.com/manhua/5443                        心灵杀手
+https://www.manhuadb.com/manhua/5646                        野蛮天女
+https://www.manhuadb.com/manhua/5696                        月明星稀~再见新选组~
+https://www.manhuadb.com/manhua/4020                        女大太郎
+https://www.manhuadb.com/manhua/3798                        麻辣功夫王
+https://www.manhuadb.com/manhua/3651                        乱飞乱外
+https://www.manhuadb.com/manhua/3587                        擂台一片天II ALAS~光辉之翼~
+https://www.manhuadb.com/manhua/3244                        姬100%
+https://www.manhuadb.com/manhua/3154                        键姬物语 永久爱丽丝回旋曲
+https://www.manhuadb.com/manhua/3112                        激流血
+https://www.manhuadb.com/manhua/2934                        胡鹤捕物帐
+https://www.manhuadb.com/manhua/2771                        钢炮勇士
+https://www.manhuadb.com/manhua/2761                        格斗侦探团
+https://www.manhuadb.com/manhua/2756                        搞怪柔道王
+https://www.manhuadb.com/manhua/2185                        变脸忍者
+https://www.manhuadb.com/manhua/1347                        圣鸡帮
+https://www.manhuadb.com/manhua/15677                       8-EIGHT-
+https://www.manhuadb.com/manhua/13179                       裁判长！这个案子判四年如何
+https://www.manhuadb.com/manhua/13047                       天狱之岛
+https://www.manhuadb.com/manhua/8944                        七色鹦哥
+https://www.manhuadb.com/manhua/8791                        律法之星
+https://www.manhuadb.com/manhua/7768                        少年犯罪事件簿
+https://www.manhuadb.com/manhua/7472                        侦探犬夏多克
+https://www.manhuadb.com/manhua/7466                        杀医兰丸
+https://www.manhuadb.com/manhua/7218                        柏青哥梁山泊
+https://www.manhuadb.com/manhua/6921                        虹色仮面
+https://www.manhuadb.com/manhua/6712                        少年刑警
+https://www.manhuadb.com/manhua/6461                        柏拉图之链（网络寻谜）
+https://www.manhuadb.com/manhua/6314                        Doubt疑惧（疑惧Doubt）
+https://www.manhuadb.com/manhua/6142                        KISS×DEATH
+https://www.manhuadb.com/manhua/5895                        侦探的老婆
+https://www.manhuadb.com/manhua/5855                        7SEEDS 幻海奇情
+https://www.manhuadb.com/manhua/5442                        Soul Drop~幽体研究~
+https://www.manhuadb.com/manhua/5437                        晓之盾
+https://www.manhuadb.com/manhua/5061                        我的爷爷是少年侦探
+https://www.manhuadb.com/manhua/3953                        神偷怪盗
+https://www.manhuadb.com/manhua/3864                        迷侦探史郎
+https://www.manhuadb.com/manhua/3800                        魔术侦探A
+https://www.manhuadb.com/manhua/3664                        秘密警察福尔摩斯
+https://www.manhuadb.com/manhua/3642                        魔人侦探脑啮涅罗
+https://www.manhuadb.com/manhua/3171                        警死厅24时
+https://www.manhuadb.com/manhua/3081                        金田一少年之推理解谜书
+https://www.manhuadb.com/manhua/3011                        火灾调查官
+https://www.manhuadb.com/manhua/2864                        黑祠之岛
+https://www.manhuadb.com/manhua/2702                        GOTH
+https://www.manhuadb.com/manhua/2698                        哥帝尔斯的绳结
+https://www.manhuadb.com/manhua/2402                        猜疑集
+https://www.manhuadb.com/manhua/1940                        暗夜第六感
+https://www.manhuadb.com/manhua/1307                        幽丽塔
+https://www.manhuadb.com/manhua/1249                        依丝卡ISUCA
+https://www.manhuadb.com/manhua/1232                        三亿元事件奇谭MONTAGE
+https://www.manhuadb.com/manhua/1168                        Another
+https://www.manhuadb.com/manhua/1164                        血色星期一 绝望之匣（潘多拉之盒）
+https://www.manhuadb.com/manhua/1163                        血色星期一 最终时刻
+https://www.manhuadb.com/manhua/1133                        危险曼陀罗
+https://www.manhuadb.com/manhua/1127                        奇迹冰冻人```
+https://www.manhuadb.com/manhua/1115                        守护神传奇```
+https://www.manhuadb.com/manhua/1081                        向死神许下最后的愿望```
+https://www.manhuadb.com/manhua/1056                        漂流网咖```
+https://www.manhuadb.com/manhua/1027                        PSYREN 决战游戏```
+https://www.manhuadb.com/manhua/1001                        黑鹭尸体宅配便```
+https://www.manhuadb.com/manhua/960                         无间双龙```
+https://www.manhuadb.com/manhua/950                         血色星期一（BLOODY MONDAY）```
+https://www.manhuadb.com/manhua/924                         幽丽塔```
+https://www.manhuadb.com/manhua/915                         生存 LifE```
+https://www.manhuadb.com/manhua/837                         花园的旋转木马```
+https://www.manhuadb.com/manhua/814                         迷走记忆 LOST+BRAIN```
+https://www.manhuadb.com/manhua/761                         预告犯 PROPHECY```
+https://www.manhuadb.com/manhua/739                         恶之华```
+https://www.manhuadb.com/manhua/685                         蝙蝠比利 BILLY BAT```
+https://www.manhuadb.com/manhua/662                         铁汉强龙```
+https://www.manhuadb.com/manhua/557                         魔王 JUVENILE REMIX```
+https://www.manhuadb.com/manhua/550                         华尔兹 Waltz```
+https://www.manhuadb.com/manhua/450                         MW毒气风暴```
+https://www.manhuadb.com/manhua/424                         Variante 寄生少女```
+https://www.manhuadb.com/manhua/420                         异能者```
+https://www.manhuadb.com/manhua/413                         EX少年漂流```
+https://www.manhuadb.com/manhua/385                         黑暗对决 UNDER DOG```
+https://www.manhuadb.com/manhua/375                         PLUTO 布鲁图```
+https://www.manhuadb.com/manhua/374                         怪物 MONSTER```
+https://www.manhuadb.com/manhua/372                         20世纪少年```
+https://www.manhuadb.com/manhua/334                         国王游戏 终极```
+https://www.manhuadb.com/manhua/292                         地狱游戏```
+https://www.manhuadb.com/manhua/291                         ALIVE 最终进化少年```
+https://www.manhuadb.com/manhua/260                         Blue Heaven```
+https://www.manhuadb.com/manhua/248                         人鱼之森 人鱼之伤 夜叉之瞳```
+https://www.manhuadb.com/manhua/171                         深渊```
+https://www.manhuadb.com/manhua/8963                        吸血鬼在日本```
+https://www.manhuadb.com/manhua/8960                        除魔守护神```
+https://www.manhuadb.com/manhua/8602                        收妖童子```
+https://www.manhuadb.com/manhua/8505                        梦幻街```
+https://www.manhuadb.com/manhua/8504                        魔界猎人```
+https://www.manhuadb.com/manhua/8168                        喵公主小樱（樱之猫姬）```
+https://www.manhuadb.com/manhua/7062                        背后灵24时```
+https://www.manhuadb.com/manhua/6706                        幽子驱鬼100连发```
+https://www.manhuadb.com/manhua/6559                        新禁断之恋```
+https://www.manhuadb.com/manhua/6146                        鬼迷藏```
+https://www.manhuadb.com/manhua/5689                        月红```
+https://www.manhuadb.com/manhua/5687                        幽灵旅行代理店```
+https://www.manhuadb.com/manhua/5645                        妖怪医生```
+https://www.manhuadb.com/manhua/5436                        邪神传说```
+https://www.manhuadb.com/manhua/5382                        小鬼Q太郎```
+https://www.manhuadb.com/manhua/4743                        式神之城Ⅱ扭曲之城篇```
+https://www.manhuadb.com/manhua/4137                        穷神```
+https://www.manhuadb.com/manhua/3804                        魔法律事务所```
+https://www.manhuadb.com/manhua/3598                        灵猫```
+https://www.manhuadb.com/manhua/3568                        龙```
+https://www.manhuadb.com/manhua/3346                        恐怖宠物店```
+https://www.manhuadb.com/manhua/2923                        狐狸新娘```
+https://www.manhuadb.com/manhua/2863                        鬼童娑婆诃```
+https://www.manhuadb.com/manhua/2557                        恶魔管家```
+https://www.manhuadb.com/manhua/17788                       爆食王```
+https://www.manhuadb.com/manhua/11863                       甜品王```
+https://www.manhuadb.com/manhua/6246                        筑地鱼河岸三代目```
+https://www.manhuadb.com/manhua/3586                        拉面屋杀手```
+{% comment %} https://www.manhuadb.com/manhua/2825                        美食猎人``` {% endcomment %}
