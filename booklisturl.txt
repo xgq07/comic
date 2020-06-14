@@ -282,34 +282,34 @@ https://www.manhuadb.com/manhua/1115                        守护神传奇
 https://www.manhuadb.com/manhua/1081                        向死神许下最后的愿望
 https://www.manhuadb.com/manhua/1056                        漂流网咖
 https://www.manhuadb.com/manhua/1027                        PSYREN 决战游戏```
-https://www.manhuadb.com/manhua/1001                        黑鹭尸体宅配便```
-https://www.manhuadb.com/manhua/960                         无间双龙```
-https://www.manhuadb.com/manhua/950                         血色星期一（BLOODY MONDAY）```
-https://www.manhuadb.com/manhua/924                         幽丽塔```
-https://www.manhuadb.com/manhua/915                         生存 LifE```
-https://www.manhuadb.com/manhua/837                         花园的旋转木马```
-https://www.manhuadb.com/manhua/814                         迷走记忆 LOST+BRAIN```
-https://www.manhuadb.com/manhua/761                         预告犯 PROPHECY```
-https://www.manhuadb.com/manhua/739                         恶之华```
-https://www.manhuadb.com/manhua/685                         蝙蝠比利 BILLY BAT```
-https://www.manhuadb.com/manhua/662                         铁汉强龙```
-https://www.manhuadb.com/manhua/557                         魔王 JUVENILE REMIX```
-https://www.manhuadb.com/manhua/550                         华尔兹 Waltz```
-https://www.manhuadb.com/manhua/450                         MW毒气风暴```
-https://www.manhuadb.com/manhua/424                         Variante 寄生少女```
-https://www.manhuadb.com/manhua/420                         异能者```
-https://www.manhuadb.com/manhua/413                         EX少年漂流```
-https://www.manhuadb.com/manhua/385                         黑暗对决 UNDER DOG```
-https://www.manhuadb.com/manhua/375                         PLUTO 布鲁图```
-https://www.manhuadb.com/manhua/374                         怪物 MONSTER```
-https://www.manhuadb.com/manhua/372                         20世纪少年```
-https://www.manhuadb.com/manhua/334                         国王游戏 终极```
-https://www.manhuadb.com/manhua/292                         地狱游戏```
-https://www.manhuadb.com/manhua/291                         ALIVE 最终进化少年```
-https://www.manhuadb.com/manhua/260                         Blue Heaven```
-https://www.manhuadb.com/manhua/248                         人鱼之森 人鱼之伤 夜叉之瞳```
-https://www.manhuadb.com/manhua/171                         深渊```
-https://www.manhuadb.com/manhua/8963                        吸血鬼在日本```
+https://www.manhuadb.com/manhua/1001                        黑鹭尸体宅配便
+https://www.manhuadb.com/manhua/960                         无间双龙
+https://www.manhuadb.com/manhua/950                         血色星期一（BLOODY MONDAY）
+https://www.manhuadb.com/manhua/924                         幽丽塔
+https://www.manhuadb.com/manhua/915                         生存 LifE
+https://www.manhuadb.com/manhua/837                         花园的旋转木马
+https://www.manhuadb.com/manhua/814                         迷走记忆 LOST+BRAIN
+https://www.manhuadb.com/manhua/761                         预告犯 PROPHECY
+https://www.manhuadb.com/manhua/739                         恶之华
+https://www.manhuadb.com/manhua/685                         蝙蝠比利 BILLY BAT
+https://www.manhuadb.com/manhua/662                         铁汉强龙
+https://www.manhuadb.com/manhua/557                         魔王 JUVENILE REMIX
+https://www.manhuadb.com/manhua/550                         华尔兹 Waltz
+https://www.manhuadb.com/manhua/450                         MW毒气风暴
+https://www.manhuadb.com/manhua/424                         Variante 寄生少女
+https://www.manhuadb.com/manhua/420                         异能者
+https://www.manhuadb.com/manhua/413                         EX少年漂流
+https://www.manhuadb.com/manhua/385                         黑暗对决 UNDER DOG
+https://www.manhuadb.com/manhua/375                         PLUTO 布鲁图
+https://www.manhuadb.com/manhua/374                         怪物 MONSTER
+https://www.manhuadb.com/manhua/372                         20世纪少年
+https://www.manhuadb.com/manhua/334                         国王游戏 终极
+https://www.manhuadb.com/manhua/292                         地狱游戏
+https://www.manhuadb.com/manhua/291                         ALIVE 最终进化少年
+https://www.manhuadb.com/manhua/260                         Blue Heaven
+https://www.manhuadb.com/manhua/248                         人鱼之森 人鱼之伤 夜叉之瞳
+https://www.manhuadb.com/manhua/171                         深渊
+https://www.manhuadb.com/manhua/8963                        吸血鬼在日本
 https://www.manhuadb.com/manhua/8960                        除魔守护神```
 https://www.manhuadb.com/manhua/8602                        收妖童子```
 https://www.manhuadb.com/manhua/8505                        梦幻街```
@@ -338,3 +338,16 @@ https://www.manhuadb.com/manhua/11863                       甜品王```
 https://www.manhuadb.com/manhua/6246                        筑地鱼河岸三代目```
 https://www.manhuadb.com/manhua/3586                        拉面屋杀手```
 {% comment %} https://www.manhuadb.com/manhua/2825                        美食猎人``` {% endcomment %}
+https://www.manhuadb.com/manhua/5773                        CAT's 爱（猫爱）```
+https://www.manhuadb.com/manhua/4696                        食灵```
+https://www.manhuadb.com/manhua/1404                        热血高校（漂ノ男子汉）```
+https://www.manhuadb.com/manhua/1309                        科学怪人传说（再生魔人）```
+https://www.manhuadb.com/manhua/1267                        新功夫旋风儿 柔道篇```
+https://www.manhuadb.com/manhua/1237                        美女条子```
+https://www.manhuadb.com/manhua/1236                        美女强盗团```
+https://www.manhuadb.com/manhua/1234                        血意少年（BLOOD LAD）```
+https://www.manhuadb.com/manhua/1233                        未知地带（ALPHA ZONE）```
+https://www.manhuadb.com/manhua/1228                        夺命佳人```
+https://www.manhuadb.com/manhua/1227                        机神```
+https://www.manhuadb.com/manhua/1222                        苹果核战记```
+https://www.manhuadb.com/manhua/1218                        战栗天使```
