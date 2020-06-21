@@ -328,20 +328,20 @@ https://www.manhuadb.com/manhua/4743                        式神之城Ⅱ扭�
 https://www.manhuadb.com/manhua/4137                        穷神
 https://www.manhuadb.com/manhua/3804                        魔法律事务所
 https://www.manhuadb.com/manhua/3598                        灵猫
-https://www.manhuadb.com/manhua/3568                        龙```
-https://www.manhuadb.com/manhua/3346                        恐怖宠物店```
-https://www.manhuadb.com/manhua/2923                        狐狸新娘```
-https://www.manhuadb.com/manhua/2863                        鬼童娑婆诃```
-https://www.manhuadb.com/manhua/2557                        恶魔管家```
-https://www.manhuadb.com/manhua/17788                       爆食王```
-https://www.manhuadb.com/manhua/11863                       甜品王```
-https://www.manhuadb.com/manhua/6246                        筑地鱼河岸三代目```
-https://www.manhuadb.com/manhua/3586                        拉面屋杀手```
+https://www.manhuadb.com/manhua/3568                        龙
+https://www.manhuadb.com/manhua/3346                        恐怖宠物店
+https://www.manhuadb.com/manhua/2923                        狐狸新娘
+https://www.manhuadb.com/manhua/2863                        鬼童娑婆诃
+https://www.manhuadb.com/manhua/2557                        恶魔管家
+https://www.manhuadb.com/manhua/17788                       爆食王
+https://www.manhuadb.com/manhua/11863                       甜品王
+https://www.manhuadb.com/manhua/6246                        筑地鱼河岸三代目
+https://www.manhuadb.com/manhua/3586                        拉面屋杀手
 {% comment %} https://www.manhuadb.com/manhua/2825                        美食猎人``` {% endcomment %}
-https://www.manhuadb.com/manhua/5773                        CAT's 爱（猫爱）```
-https://www.manhuadb.com/manhua/4696                        食灵```
-https://www.manhuadb.com/manhua/1404                        热血高校（漂ノ男子汉）```
-https://www.manhuadb.com/manhua/1309                        科学怪人传说（再生魔人）```
+https://www.manhuadb.com/manhua/5773                        CAT's 爱（猫爱）
+https://www.manhuadb.com/manhua/4696                        食灵
+https://www.manhuadb.com/manhua/1404                        热血高校（漂ノ男子汉）
+https://www.manhuadb.com/manhua/1309                        科学怪人传说（再生魔人）
 https://www.manhuadb.com/manhua/1267                        新功夫旋风儿 柔道篇```
 https://www.manhuadb.com/manhua/1237                        美女条子```
 https://www.manhuadb.com/manhua/1236                        美女强盗团```
