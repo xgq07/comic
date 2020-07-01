@@ -189,14 +189,10 @@ if __name__ == "__main__":
     # main("https://www.manhuadb.com/manhua/16840")
     # main("https://www.manhuadb.com/manhua/13137")
     # main("https://www.manhuadb.com/manhua/2698")
-    
+    main("https://www.manhuadb.com/manhua/1218")
+    main("https://www.manhuadb.com/manhua/1188")
+  
     # main("https://www.manhuadb.com/manhua/1027")
     # main("https://www.manhuadb.com/manhua/8960")
-
-
-    
-    
-    
-    
     # r = requests.get("https://www.baidu.com")
     # print(r)
