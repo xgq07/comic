@@ -365,26 +365,26 @@ https://www.manhuadb.com/manhua/1120                        东京暗鸦
 https://www.manhuadb.com/manhua/1097                        家庭教师HITMAN REBORN! 
 https://www.manhuadb.com/manhua/1091                        Blood-C 
 https://www.manhuadb.com/manhua/1087                        地雷震 
-https://www.manhuadb.com/manhua/1085                        卧底威龙 ```
-https://www.manhuadb.com/manhua/1082                        地雷震 Diablo ```
-https://www.manhuadb.com/manhua/1079                        月光条例```
-https://www.manhuadb.com/manhua/1066                        益荒王```
-https://www.manhuadb.com/manhua/1041                        斩!赤红之瞳```
-https://www.manhuadb.com/manhua/1032                        勇者斗恶龙 天空物语```
-https://www.manhuadb.com/manhua/1027                        PSYREN 决战游戏```
-https://www.manhuadb.com/manhua/1019                        妖精的尾巴 魔导少女们（FAIRY GIRLS）```
-https://www.manhuadb.com/manhua/1009                        黑神```
-https://www.manhuadb.com/manhua/996                         凡赫辛```
-https://www.manhuadb.com/manhua/985                         范马刃牙```
-https://www.manhuadb.com/manhua/984                         范马刃牙10.5卷 冰冻原始人```
-https://www.manhuadb.com/manhua/982                         Yasha夜叉```
-https://www.manhuadb.com/manhua/975                         夜叉鸦```
-https://www.manhuadb.com/manhua/963                         人机续篇 EXTEND```
-https://www.manhuadb.com/manhua/961                         魔兽冒险```
-https://www.manhuadb.com/manhua/955                         北斗帝王```
-https://www.manhuadb.com/manhua/954                         人机```
-https://www.manhuadb.com/manhua/953                         人机 EXTEND: RELATION```
-https://www.manhuadb.com/manhua/952                         最强不良传说```
+https://www.manhuadb.com/manhua/1085                        卧底威龙 
+https://www.manhuadb.com/manhua/1082                        地雷震 Diablo 
+https://www.manhuadb.com/manhua/1079                        月光条例
+https://www.manhuadb.com/manhua/1066                        益荒王
+https://www.manhuadb.com/manhua/1041                        斩!赤红之瞳
+https://www.manhuadb.com/manhua/1032                        勇者斗恶龙 天空物语
+https://www.manhuadb.com/manhua/1027                        PSYREN 决战游戏
+https://www.manhuadb.com/manhua/1019                        妖精的尾巴 魔导少女们（FAIRY GIRLS）
+https://www.manhuadb.com/manhua/1009                        黑神
+https://www.manhuadb.com/manhua/996                         凡赫辛
+https://www.manhuadb.com/manhua/985                         范马刃牙
+https://www.manhuadb.com/manhua/984                         范马刃牙10.5卷 冰冻原始人
+https://www.manhuadb.com/manhua/982                         Yasha夜叉
+https://www.manhuadb.com/manhua/975                         夜叉鸦
+https://www.manhuadb.com/manhua/963                         人机续篇 EXTEND
+https://www.manhuadb.com/manhua/961                         魔兽冒险
+https://www.manhuadb.com/manhua/955                         北斗帝王
+https://www.manhuadb.com/manhua/954                         人机
+https://www.manhuadb.com/manhua/953                         人机 EXTEND: RELATION
+https://www.manhuadb.com/manhua/952                         最强不良传说
 https://www.manhuadb.com/manhua/942                         境界之轮回```
 https://www.manhuadb.com/manhua/928                         魁!!男塾```
 https://www.manhuadb.com/manhua/911                         近未来吸血鬼```
@@ -408,3 +408,18 @@ https://www.manhuadb.com/manhua/776                         狼口 Wolfsmund ```
 https://www.manhuadb.com/manhua/772                         超能力少年之秘密 ```
 https://www.manhuadb.com/manhua/759                         三只眼 幻兽之森的遇难者 ```
 https://www.manhuadb.com/manhua/746                         毒狼 DOKURO ```
+https://www.manhuadb.com/manhua/745                         斗魔王杰克 ```
+https://www.manhuadb.com/manhua/733                         异兽魔都 ```
+https://www.manhuadb.com/manhua/720                         女恶魔人（猎魔兽女） ```
+https://www.manhuadb.com/manhua/719                         武装机甲 LINEBARRELS ```
+https://www.manhuadb.com/manhua/706                         斗鱼 GAMBLE FISH ```
+https://www.manhuadb.com/manhua/698                         恐龙之珠 ```
+https://www.manhuadb.com/manhua/689                         死囚乐园（亡灵幻境） ```
+https://www.manhuadb.com/manhua/687                         RATMAN ```
+https://www.manhuadb.com/manhua/683                         服装战斗师 Cloth Road ```
+https://www.manhuadb.com/manhua/677                         人形枪 ```
+https://www.manhuadb.com/manhua/672                         狼的纹章 ```
+https://www.manhuadb.com/manhua/669                         游斗异世界 ```
+https://www.manhuadb.com/manhua/665                         虫、眼球、泰迪熊 ```
+https://www.manhuadb.com/manhua/664                         魔兽争霸 魔兽使少女 ```
+https://www.manhuadb.com/manhua/663                         魔姬抄 ```
