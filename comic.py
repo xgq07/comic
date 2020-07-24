@@ -189,6 +189,8 @@ if __name__ == "__main__":
     # main("https://www.manhuadb.com/manhua/16840")
     # main("https://www.manhuadb.com/manhua/13137")
     # main("https://www.manhuadb.com/manhua/2698")
+    main("https://www.manhuadb.com/manhua/746")
+
 
 
 
